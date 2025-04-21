@@ -18,7 +18,7 @@ table {
 }
 
 #details {
-  clear: left
+  clear: left;
 }
 
 #gallery {
@@ -47,8 +47,9 @@ figcaption {
   text-align: center;
 }
 
+/* Clear both floats for any hr */
 hr {
-  clear: left;
+  clear: both;
 }
 
 .rating {
